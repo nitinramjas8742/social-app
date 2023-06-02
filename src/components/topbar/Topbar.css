@@ -1,0 +1,89 @@
+.topbarcontainer {
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.topbarleft {
+    flex: 3;
+}
+.topbarcenter {
+    flex: 5;
+}
+.topbarcenter{
+    width: 100%;
+    height:30px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+   
+}
+.searchinput{
+    border:none;
+   outline: none;
+   width: 70%;
+}
+.topbarright {
+    flex: 4;
+    display: flex;
+}
+.topbarimage {
+    width: 32px;
+    height: 32px;
+}
+.topbaricons {
+    padding-left: 10px;
+    display: flex;
+}
+.topbarlink{
+    justify-content: center;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+}
+.topbarlinks {
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.topbariconitems{
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    justify-content: space-between;
+    color: white;
+    cursor: pointer;
+    
+}
+.logo {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+    color: yellow;
+}
+.topbarimage {
+    margin-left: 60px;
+    border-radius: 50%;
+    object-fit:cover;
+    cursor: pointer;
+}
+.search {
+    margin-top: 2px;
+   margin-left: 10px;
+}
+.topbariconbadge {
+    font-size:15px;
+    color:antiquewhite;
+    background-color:green;
+    border-radius: 60%;
+    
+}
+

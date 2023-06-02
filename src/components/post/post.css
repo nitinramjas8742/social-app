@@ -1,0 +1,91 @@
+.post {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 4px 15px -7px #000000; 
+    box-shadow: 5px 4px 15px -7px #000000;
+    margin-top: 20px;
+}
+.postwrapper{
+    padding:20px;
+}
+.posttop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.posttopleft{
+    display: flex;
+    align-items: center;
+}
+
+.postusername {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.posttopleftimg {
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     object-fit: cover;
+}
+.postdate{
+    font-size: 12px;
+}
+.threedots{
+    cursor: pointer;
+}
+.postcenter{
+    margin:20px;
+}
+.postcentertext{
+    font: size 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.postcenterimg{
+    height:300px;
+    width: 100%;
+    max-height: 500px;
+}
+.postbottom{
+    display: flex;
+    align-items: center;
+}
+.postbottomleft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.like{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.heart{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.likecounter{
+    margin-left:10px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.postbottomright{
+    display: flex;
+}
+.comment{
+    padding-left: 180px;
+    cursor: pointer;
+}
+.commenticon{
+    margin-left: 15px;
+    cursor:pointer;
+}
